@@ -23,9 +23,9 @@ It uses as input the CSV file given by Google Patents and can extract :
 * **Figures**
 * **PDF files**
 
-### Langage
+### Language
 The user has the option to choose between English (if Google provides an English translation) or the original patent langage.
-If no English translation is found, it defaults to the original langage.
+If no English translation is found, it defaults to the original language.
 
 ### Concatenation
 The user also has the option to concatenate text files and get one big text file instead of multiple small ones.
@@ -65,7 +65,7 @@ Concatenated items
 Each one of these subfolders will contain a unique text file for every Patent named using the patent ID (example : USXXXXXXX)
 
 * **PDF** :
-As the name subtly implies, this folder will contain all the PDF files.
+As the name suggests, this folder will contain all the PDF files.
 
 * **log** :
 This folder will contain the log files generated after every execution of the program.
@@ -86,7 +86,7 @@ In order to use this tool, you also need the latest Chrome as well as the latest
 If you don't know which version is the latest, check the [LATEST_RELEASE](https://chromedriver.storage.googleapis.com/LATEST_RELEASE) file.
 
 ## Compatibility
-This tool is executable on Windows, macOS and most Linux distributions.
+This tool can be executed on Windows, macOS, and most Linux distributions.
 
 ## Installation
 
@@ -118,7 +118,7 @@ Unzip the downloaded file into this directory :
 
 ### Windows
 
-For Windows the installation process is the same than on Linux or macOS except for the chromedriver installation.
+For Windows, the installation process is the same as on Linux or macOS, except for the chromedriver installation.
 
 #### Installing chromedriver
 Download the latest [chromedriver zip](https://chromedriver.storage.googleapis.com/index.html).
@@ -130,9 +130,9 @@ C:\Windows\
 ```
 
 ## Known Issues
-The interface may not respond while working, this has no known incidence on the extraction of the data.
+The interface may become unresponsive while working; however, this has no known impact on data extraction.
 
 While extracting massive numbers of patents, the process might randomly freeze. Unfortunately I have not been able to determine what causes it. I, myself, have never encountered this problem on Linux (Solus Budgie), but my client on macOS (High Sierra) faced it multiple times. I have not tested if this problem exists on Windows or not.
-If you encounter this problem, try to reduce the number of patents to extract.
+f you encounter this problem, try reducing the number of patents being extracted.
 
 
